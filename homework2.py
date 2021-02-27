@@ -44,11 +44,11 @@
 # print(car)
 
 # task 8 ---
-dict1 = {1: 'a', 3: 'c', 2: 'b', 4: 'd'}
-a = list(dict1.keys())
-a.sort()
-for i in a:
-    print(i, ':', dict1.get())
+# dict1 = {1: 'a', 3: 'c', 2: 'b', 4: 'd'}
+# a = list(dict1.keys())
+# a.sort()
+# for i in a:
+#     print(i, ':', dict1.get(i))
 
 # task 9 +++
 # car = {}
