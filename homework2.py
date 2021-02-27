@@ -43,7 +43,7 @@
 # car.update(bike)
 # print(car)
 
-# task 8 ---
+# task 8 +++
 # dict1 = {1: 'a', 3: 'c', 2: 'b', 4: 'd'}
 # a = list(dict1.keys())
 # a.sort()
@@ -138,7 +138,6 @@
 # c = int(input('Введите число: '))
 # l = [a, b, c]
 # amount = 0
-# i = 0
 # for i in l:
 #     if i > 0:
 #         amount += 1
@@ -175,8 +174,6 @@
 #     print(f'Число а является средним: {a}')
 # elif b > a  and b < c or b < a and b > c:
 #     print(f'Число b является средним: {b}')
-# # else:
-# #     print(f'Число c является средним: {c}')
 # elif c > a  and c < b or c < a and c > b:
 #     print(f'Число c является средним: {c}')
 # else:
