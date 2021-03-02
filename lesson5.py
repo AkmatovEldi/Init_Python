@@ -56,17 +56,23 @@
 # print(myfunc())
 
 
-def decorator_func(func):
-    def wrapper():
-        print('Функция обертка')
-        print(f'Оборачиваемая функция {func}')
-        print('Выполняем обернутую функцию')
-        func()
-        print('Выходим из обертки')
-    return wrapper
+# def decorator_func(func):
+#     def wrapper():
+#         print('Функция обертка')
+#         print(f'Оборачиваемая функция {func}')
+#         print('Выполняем обернутую функцию')
+#         func()
+#         print('Выходим из обертки')
+#     return wrapper
+#
+# @decorator_func
+# def hello():
+#     print('Hello Eldi')
+#
+# hello()
 
-@decorator_func
-def hello():
-    print('Hello Eldi')
-
-hello()
+RedGreen
+Black
+White
+Pink
+Yellow
