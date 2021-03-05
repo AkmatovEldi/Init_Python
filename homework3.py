@@ -1,3 +1,4 @@
+
 # task 1 +++
 # a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 # b = []
@@ -21,6 +22,15 @@
 #             c.append(i)
 # print(c)
 
+# task 3 +++
+# python = {1: 'Eldi', 2: 'Ainur', 3: 'Nursultan', 4: 'Akyl', 5: 'Syimyk'}
+# java = {6: 'Erik', 7: 'Urmat', 8: 'Borya'}
+# go = {9: 'Ulan', 10: 'Almaz'}
+# # python.update(java)
+# # python.update(go)
+# merge = {**python, **java, **go}
+# print(merge)
+
 # task 4 +++
 # numbers = [
 #     386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345,
@@ -43,6 +53,13 @@
 #     for i in range(b, a + 1):
 #         print(i)
 
+# task 6 +++
+# num1 = int(input('Введите минимальное число: '))
+# num2 = int(input('Введите максимальное число: '))
+# for i in range(num1, num2):
+#     if i * i < num2:
+#         res = i * i
+#         print(res)
 
 # task 7 +++
 # list1 = [1, 2, 6, 3, 9, 2, 11, 20, 16, 7, 8]
